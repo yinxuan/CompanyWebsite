@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑", Microsoft YaHei, "Helvetica Neue", Helvetica, Arial, sans-serif, "open sans";
+}
+
+
+.headers {
+    width: 100%;
+    border-bottom: solid 1px #cccccc;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: white !important;
+    .navigation-button {
+        cursor: pointer;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        a {
+            display: block;
+            height: 30px;
+            color: #778195;
+	          padding: 6px;
+        }
+        &:hover {
+            a {
+                color: rgb(74,144,226);
+            }
+        }
+	      &.active {
+			      border-bottom: 2px rgb(74,144,226) solid;
+			      a {
+		            color: rgb(74,144,226) !important;
+				      background-color:  inherit !important;
+			      }
+	      }
+    }
+}
+
+.parting-line {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    .circle1 {
+        width: 6px;
+        height: 6px;
+        border: 1px #ffffff solid;
+        -webkit-border-radius: 100px;
+        display: inline-block;
+    }
+    .circle2 {
+        width: 6px;
+        height: 6px;
+        border: 1px #000000 solid;
+        -webkit-border-radius: 100px;
+        display: inline-block;
+    }
+    .line {
+        width: 40px;
+        line-height: 6px;
+        height:1px;
+        margin-top: 3px;
+    }
+}
+
+.t1 {
+    margin: 169px auto 237px auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 10px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+
+.bod {
+    background: linear-gradient(175deg, #2F5CAA, #8FD6EB);
+    color: #FFFFFF;
+}
+
+/*因为communicate的宽高发生了变化，所以它的颜色渐变浓度也会和bod里面的不一样*/
+.communicate {
+    background: linear-gradient(185deg, #2F5CAA, #8FD6EB);
+    color: #FFFFFF;
+}
+
+.about , .project1, .com1 {
+    //font-family: STHeitiSC-Medium;
+    font-size: 33px;
+    line-height: 30px;
+    text-align: center;
+    margin: 70px auto auto auto;
+}
+
+.about1 {
+    max-width: 657px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /*font-family: STHeitiSC-Light;*/
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.about2 {
+    max-width: 654px;
+    margin: 30px auto 85px auto;
+    text-align: center;
+}
+
+.company1 {
+  font-size: 33px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.s1 {
+    margin-left: 371px;
+    margin-right: 12px;
+}
+
+.s2,.s3 {
+    margin-left: 13px;
+    margin-right: 12px;
+}
+
+.s4 {
+    margin-right: 443px;
+}
+
+.con1, .con2 {
+    margin: 15px;
+}
+
+.company2 {
+    margin-bottom: 169px;
+}
+
+.tab1, .tab2 {
+    background-color: #FFFFFF;
+    color: #000000;
+    //padding: 5px 8px;
+    border-radius: 5px;
+    border-bottom: solid 2px #85857e;
+    border-right: solid 2px #85857e;
+    border-top: solid 1px #85857e;
+    border-left: solid 1px #85857e;
+}
+
+
+
+.fs {
+    color: #AEAEAE;
+}
+
+.fs:hover {
+    text-align: center;
+    width: 85%;
+    height: 85%;
+    -webkit-border-radius: 100px;
+    //background: linear-gradient( #a3ecff, #fffe38);
+    background-color: #c3c2c6;
+    color: #FFFFFF;
+}
+
+//.fx:hover {
+//  width:100%;
+//  height: 100%;
+//  background-color: #AEAEAE;
+//  color: #FFFFFF;
+//}
+
+.fy:hover {
+    color: #FFFFFF;
+    text-shadow: 3px 3px 3px #fd0fff;
+    border-radius: 5%;
+}
+
+.ss {
+    text-align: center;
+    color: #778195;
+    font-size: 15px;
+    padding-top: 20px;
+    border-radius: 3px;
+    background-color: #F7F9FC;
+    width: 180px;
+    height: 60px;
+
+}
+
+.ss:hover {
+    background-image: linear-gradient(to bottom, #0078c1 0%, rgba(0,120,193,07) 30%,rgba(244,163,34,0.7) 70%,#f4a322 100%);
+}
+
+.ss:hover .fx {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.second, .owner {
+    background-color: #F7F9FC;
+    color: #474747;
+}
+
+.com3 {
+    /*font-family: STHeitiSC-Medium;*/
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.sr {
+    color: #E6E6E6;
+}
+
+.foot {
+    width: 100%;
+    background-color: #000000;
+    color:#FFFFFF;
+}
+
+.large-qr {
+  position: absolute;
+  display: none;
+  left:  14px;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #FFFFFF;
+}
+
+a:link {
+    color: #4A90E2 ;
+}
+
+a:visited {
+    color: #c3c2c6;
+}
+
+a:hover {
+    color: #89fc5d;
+}
+
+a:active {
+    color: #cc2630;
+}
+
